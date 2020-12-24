@@ -24,14 +24,22 @@
       <p>Result: {{ counter }}</p>
       <input
         type="text"
-        v-on:input="setName($event, 'Srivastava')"
-        v-on:keyup.enter="confirmInput"
+        v-model="name"
       />
-      <p>Your Name: {{ confirmedName }}</p>
+      <input
+        type="text"
+        v-model="lastName"
+      />
+      <!-- v-bind:value="name"
+        v-on:input="setName($event, 'Srivastava')" -->
+      <!-- v-on:keyup.enter="confirmInput" -->
+      <button v-on:click="resetInput">Reset Input</button>
+      <p>Your Name: {{ fullname }}</p>
+      <!--
       <form v-on:submit.prevent="submitForm">
         <input type="text" />
         <button>Sign Up</button>
       </form>
-    </section>
+    --></section>
   </body>
 </html>
