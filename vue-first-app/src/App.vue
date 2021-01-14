@@ -68,6 +68,7 @@ header {
   width: 90%;
   max-width: 40rem;
 }
+/* Styles */
 #app ul {
   margin: 0;
   padding: 0;
