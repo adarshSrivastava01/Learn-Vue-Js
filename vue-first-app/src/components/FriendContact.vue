@@ -50,6 +50,7 @@ export default {
   //     }
   //   },
   // },
+  /* New  */
   data() {
     return {
       detailsAreVisible: false,
