@@ -35,6 +35,13 @@ export default {
           email: "julie@localhost.com",
           isFavorite: false
         },
+        {
+          id: "adarsh",
+          name: "Adarsh Jones",
+          phone: "0123 56987 01",
+          email: "adarsh@localhost.com",
+          isFavorite: false
+        },
       ],
     };
   },
